@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #800000;  /* Maroon color */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.menu {
+    background-color: #600000;  /* Darker maroon */
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #450000;  /* Even darker maroon */
+    border-radius: 3px;
+}
+
+.logout {
+    float: right;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Form Styles */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-container form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #600000;  /* Darker maroon */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    background-color: #800000;  /* Maroon color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #600000;  /* Darker maroon */
+}
+
+.summernote {
+    height: 200px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #800000;  /* Maroon color for table headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #800000;  /* Maroon color */
+}
+
+.btn-primary:hover {
+    background-color: #600000;  /* Darker maroon */
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .menu a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 12px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+
+    .logout {
+        float: none;
+        margin-top: 10px;
+    }
+}
